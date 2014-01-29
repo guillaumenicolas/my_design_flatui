@@ -173,7 +173,7 @@
              msg.commands.append(new Windows.UI.Popups.UICommand(resDisclaimerButton.value, handleDisclaimer));
 
              // Show the message dialog
-             msg.showAsync();
+             //msg.showAsync();
          }
      };
 

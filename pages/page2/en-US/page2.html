@@ -39,6 +39,10 @@ For Avoiding common certification failures, see http://go.microsoft.com/fwlink/?
     <link href="/css/default.css" rel="stylesheet" />
     <link href="/pages/page2/page2.css" rel="stylesheet" />
     <script src="/pages/page2/page2.js"></script>
+
+    <!-- Your data file. -->
+    <script src="/js/dataExample.js"></script>
+
 </head>
 <body>
     <!-- Page content -->
@@ -51,7 +55,6 @@ For Avoiding common certification failures, see http://go.microsoft.com/fwlink/?
                      file structure and/or decoration to the file name. 
                      When you provide a globalized image resource in your template, supply only the file name. 
                      See Globalizing your app at http://go.microsoft.com/fwlink/?LinkId=258266. -->
-                <img id="1" src="ms-appx:///images/square70logo.png" />
                 <!-- In some cases, you might want to include the back button:
                      <button data-win-control="WinJS.UI.BackButton"></button> 
                      The back button checks the navigation stack and is automatically enabled or disabled. 
@@ -67,7 +70,30 @@ For Avoiding common certification failures, see http://go.microsoft.com/fwlink/?
             <!-- Localizable content title (/strings/<lang spec>). -->
             <h2 id="secondPageDeck" data-win-res="{textContent: 'secondPageDeck'}"></h2>
             <!-- Page content to be localized -->
-            <p>App detail</p>
+
+            <div id="mediumListIconTextTemplate" data-win-control="WinJS.Binding.Template">
+                <div style="width: 150px; height: 100px;">
+
+                    <!-- Displays the "picture" field. 
+                    <img src="#" style="width: 60px; height: 60px;"
+                         data-win-bind="alt: title; src: picture" />-->
+                    <div>
+
+                        <!-- Displays the "title" field. -->
+                        <h4 data-win-bind="innerText: title"></h4>
+
+                        <!-- Displays the "text" field. -->
+                        <h6 data-win-bind="innerText: text"></h6>
+                    </div>
+                </div>
+            </div>
+
+            <div id="basicListView" data-win-control="WinJS.UI.ListView" 
+                                    data-win-options="{itemDataSource : DataExample.itemList.dataSource, 
+                                                       itemTemplate: select('#mediumListIconTextTemplate')}">
+            </div>
+
+
         </section>
     </div>
 </body>

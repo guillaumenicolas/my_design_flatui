@@ -8,25 +8,25 @@
     // All values of the token string created for the DisplayName element in the package manifest must match 
     // the names that you’ve reserved for the app at the Windows Store. Otherwise, a validation error will occur 
     // when you upload the package to the Store.
-    "displayName"                       : "FlatNavTemplate (JavaScript)",
+    "displayName"                       : "My Design",
     "_displayName.comment"              : "The title of the application that appears on the start screen, search page, and so on (up to 256 characters in length).",
 
 
-    "description"                       : "Windows Store app flat navigation template (JavaScript).",
+    "description"                       : "Visual design app for web development conception",
     "_description.comment"              : "Description of the app (up to 2048 characters).",
 
-    "shortName"                         : "FlatNav",
+    "shortName"                         : "MyDesign",
     "_shortName.comment"                : "Short name for the app displayed on the tile (up to 40 characters).",
 // App manifest resources.
 
 // UI resources
-    "appName"              : "Windows SDK: App name",
+    "appName"              : "My Design",
     "_appName.comment"     : "App name displayed on opening page.",
 
     "greeting"              : "Hello",
     "_greeting.comment"     : "A welcome greeting.",
 
-    "disclaimer"              : "THIS CODE AND INFORMATION IS PROVIDED 'AS IS' WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.\n\nCopyright (c) Microsoft Corporation. All rights reserved",
+    "disclaimer"              : "Welcome",
     "_disclaimer.comment"     : "Body text for usage disclaimer message box.",
 
     "disclaimerTitle"              : "Disclaimer",
@@ -41,10 +41,10 @@
     "navbarHomeTooltip"              : "Go to home page",
     "_navbarHomeTooltip.comment"     : "Tooltip text for Home button on NavBar.",
 
-    "navbarPage2Label"              : "Page 2",
+    "navbarPage2Label"              : "New Project",
     "_navbarPage2Label.comment"     : "Text for Page 2 button on NavBar.",
 
-    "navbarPage2Tooltip"              : "Go to page 2",
+    "navbarPage2Tooltip"              : "Project creation page",
     "_navbarPage2Tooltip.comment"     : "Tooltip text for Page 2 button on NavBar.",
 
     "appbarHelpLabel"              : "Help",
@@ -56,18 +56,18 @@
     "bannerAriaLabel"              : "Banner content",
     "mainContentAriaLabel"         : "Main content",
 
-    "homePageHeadline"              : "Welcome to your app!",
+    "homePageHeadline"              : "Welcome to My Design",
     "_homePageHeadline.comment"     : "Headline or title for the Home page content.",
 
-    "homePageDeck"         : "Gallery.xml file checklist for Windows 8.1 samples",
+    "homePageDeck"         : "A simple visual design app",
     "_homePageDeck.comment"    : "Phrase, sentence, or several sentences such as a quick blurb or content teaser.",
 
     // Home page content: see \pages\home\[locale]\home.html
 
-    "secondPageHeadline"              : "Page 2",
+    "secondPageHeadline"              : "New Project",
     "_secondPageTitle.comment"     : "Headline or title for the Page 2 content.",
 
-    "secondPageDeck"         : "Specific information about functionality on page.",
+    "secondPageDeck"         : "Create a new project",
     "_secondPageDeck.comment"    : "Phrase, sentence, or several sentences such as a quick blurb or content teaser.",
 
     // Second page content: see \pages\home\[locale]\page2.html
