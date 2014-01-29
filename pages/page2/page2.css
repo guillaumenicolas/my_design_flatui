@@ -2,20 +2,3 @@
     margin-left: 120px;
 }
 
-#basicListView {
-    margin-top: 30px;
-}
-
-#basicListView .win-listview 
-{
-    height: 500px; 
-    width: 500px; 
-    border: 2px solid gray;
-}
-
-#basicListView h6 
-{
-    margin-top: 10px;
-}
-
-

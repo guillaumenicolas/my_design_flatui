@@ -73,7 +73,6 @@
     <Content Include="images\fr-FR\square70logo.scale-140.png" />
     <Content Include="images\fr-FR\square70logo.scale-180.png" />
     <Content Include="images\fr-FR\square70logo.scale-80.png" />
-    <Content Include="js\dataExample.js" />
     <Content Include="pages\home\en-US\home.html" />
     <Content Include="pages\home\fr-FR\home.html" />
     <Content Include="pages\page2\en-US\page2.html" />

@@ -51,7 +51,7 @@ For Avoiding common certification failures, see http://go.microsoft.com/fwlink/?
                      For images included in the app package, Windows identifies the correct image through the 
                      file structure and/or decoration to the file name. 
                      See Globalizing your app at http://go.microsoft.com/fwlink/?LinkId=258266. -->
-                
+                <img id="logoimage" src="ms-appx:///images/square70logo.png"/>
                 <!-- In some cases, you might want to include the back button:
                      <button data-win-control="WinJS.UI.BackButton"></button> 
                      The back button checks the navigation stack and is automatically enabled or disabled. 
@@ -67,12 +67,35 @@ For Avoiding common certification failures, see http://go.microsoft.com/fwlink/?
             <!-- Localizable content title (/strings/<lang spec>). -->
             <h2 id="homePageDeck" data-win-res="{textContent: 'homePageDeck'}"></h2>
             <!-- Page content to be localized -->
-            
+            <p>Guidelines for the introductory home page of your app.</p>
+            <h3>Purpose</h3>
+            <ul>
+                <li>Ensure consistency of content across app and corresponding gallery.xml file.</li>
+                <li>Increase the usefulness of the content in app and corresponding gallery.xml file. </li>
+            </ul>
+            <h3>Required</h3>
+            <ul>
+                <li>Minimum of 1,000 characters</li>
+                <li>Title and abstract with SEO keywords </li>
+                <li>List of features demonstrated by the sample </li>
+                <li>Instructions for building and the sample</li>
+                <li>Links to related topics (minimum of 3)</li>
+                <li>Programming language-specific callouts</li>
+            </ul>
+            <h3>Optional</h3>
+            <ul>
+                <li>How to use the sample</li>
+                <li>Opportunities to extend the sample</li>
+                <li>Design guidance</li><li>Best practices</li>
+                <li>Code callouts </li><li>Screenshots </li>
+                <li>Byline</li>
+            </ul>
+            <p>
                 <!-- Don't use a button when the action is to go to another page; 
                     use direct links within the content or the nav bar to move between pages. 
                     See Guidelines and checklist for buttons at http://go.microsoft.com/fwlink/?LinkID=313598 -->
                 <!-- Localizable link text (/strings/<lang spec>). -->
-                <!--<a id="linkPage2" href="/pages/page2/page2.html" data-win-res="{textContent: 'nextPageButton'}"></a>-->
+                <a id="linkPage2" href="/pages/page2/page2.html" data-win-res="{textContent: 'nextPageButton'}"></a>
             </p>
         </section>
     </div>
